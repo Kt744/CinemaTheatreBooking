@@ -1,0 +1,66 @@
+body {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+.seat-section {
+  width: 100vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seat-represent {
+  width: 50vw;
+  margin-top: 5vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.summary-section {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.summary-section-content {
+  width: 50vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.seat-btn {
+  width: 5vw;
+  height: 5vh;
+}
+.booked {
+  background-color: rgb(235, 109, 109);
+}
+.selected {
+  background-color: rgb(92, 206, 92);
+}
+.summary-section {
+  width: 100vw;
+  height: 40vh;
+}
+.summary-section-content {
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+}
+.summary-section-items1 {
+  width: 20vw;
+  height: 5vh;
+}
+.summary-section-items2 {
+  width: 20vw;
+  height: 5vh;
+}
+.summary-section-items3 {
+  width: 20vw;
+  height: 5vh;
+}
